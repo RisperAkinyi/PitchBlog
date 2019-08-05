@@ -44,7 +44,7 @@ No known bugs
 * css
 * html
 ## Support and contact details
-contact emmasharon19@gmail.com for support.
+contact risperakinyi3@gmail.com for support.
 ## Live Link
 https://best-pitch.herokuapp.com/
 
