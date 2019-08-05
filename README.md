@@ -1,6 +1,6 @@
 # pitch-board
 
-## BY Sharon Emma https://github.com/Emmasharon/   02/07/19
+## BY Risper Akinyi https://github.com/RisperAkinyi/   02/07/19
 
 ## Description
 This is a web app created using python flask.It allows users to submit their one minute pitches and other users will vote on them and leave comments to give their feedback on them.
@@ -25,7 +25,7 @@ also be able to comment and vote on another user's pitches.
 
 ## Setup/Installation Requirements
 * Internet access
-* git clone https://github.com/Emmasharon/best-pitch
+* git clone https://github.com/RisperAkinyi/best-pitch
 * $ cd into pitch-perfect
 * $ python3.6 -m venv virtual (install virtual environment)
 * $ source virtual/bin/activate
@@ -52,7 +52,7 @@ https://best-pitch.herokuapp.com/
 
 The project is licensed under MIT license https://opensource.org/licenses/MIT
 Copyright (c) 2019, emma
-Emmasharon/best-pitch
+RisperAkinyi/best-pitch
 
 ### Language
 Python
