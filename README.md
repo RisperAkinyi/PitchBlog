@@ -1,10 +1,8 @@
-# pitch-board
-
-## BY Risper Akinyi https://github.com/RisperAkinyi/   02/07/19
+# Pitch Blog
 
 ## Description
-This is a web app created using python flask.It allows users to submit their one minute pitches and other users will vote on them and leave comments to give their feedback on them.
-also be able to comment and vote on another user's pitches.
+This is  an application that allows users to submit their one minute pitches and other users will vote on them and leave comments to give their feedback on them.
+ 
 
 ## user stories
 * view pitches
@@ -20,8 +18,6 @@ also be able to comment and vote on another user's pitches.
 | click on a pitch   |                       | vote/comment                       |
 | sign in/up         | details pass & user   | view,pitch & comment               |
 
-## Prerequisites
-* Python3.6
 
 ## Setup/Installation Requirements
 * Internet access
@@ -33,26 +29,7 @@ also be able to comment and vote on another user's pitches.
 * Inside the manage.py module change the config_name parameter from 'production' to 'development' ie app = * create_app('production') should be app = create_app('development')
 * $ ./start.sh
 * or click on this link and follow the steps in the BDD.
-## Known Bugs
 
-No known bugs
 
-## Technologies Used
-* Python3.6
-* Postgressql
-* flask bootstrap
-* css
-* html
-## Support and contact details
-contact risperakinyi3@gmail.com for support.
-## Live Link
-https://best-pitch.herokuapp.com/
 
-### License
 
-The project is licensed under MIT license https://opensource.org/licenses/MIT
-Copyright (c) 2019, ras
-RisperAkinyi/best-pitch
-
-### Language
-Python

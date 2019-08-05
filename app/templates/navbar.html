@@ -23,7 +23,7 @@
                 </li>
                 {% if current_user.is_authenticated %}
                 <li class="nav-item">
-                    <a class="btn btn-success" href="{{url_for('main.profile',uname=current_user.username)}}">Profile</a>
+                    <a class="btn btn-success" style = "margin-right: 20px;" href="{{url_for('main.profile',uname=current_user.username)}}">Profile</a>
                 </li>
                 <li>
                     <a class="btn btn-success" style = "margin-right: 20px;" href="{{url_for('auth.logout')}}">Sign out</a>
