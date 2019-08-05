@@ -1,4 +1,4 @@
-<div class="nav" role="navigation" style="background-color: rgba(2, 32, 2, 0.562)">
+<div class="nav" role="navigation" >
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -12,21 +12,21 @@
         <div class="nav navbar-nav navbar-right">
             <ul class="nav nav-pills nav-fill">
                 <li class="nav-item">
-                    <a class="nav-link active" href="/">Home</a>
+                    <a class="btn btn-success" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/timeline">Timeline</a>
+                    <a class="btn btn-success" href="/timeline">Timeline</a>
                     <!-- <a class="nav-link" href="timeline">Timeline</a> -->
                 </li>
                 {% if current_user.is_authenticated %}
                 <li class="nav-item">
-                    <a href="{{url_for('main.profile',uname=current_user.username)}}">Profile</a>
+                    <a class="btn btn-success" href="{{url_for('main.profile',uname=current_user.username)}}">Profile</a>
                 </li>
                 <li>
-                    <a href="{{url_for('auth.logout')}}">Sign out</a>
+                    <a class="btn btn-success" href="{{url_for('auth.logout')}}">Sign out</a>
                 </li>
                 {% else %}
-                <li><a href="{{url_for('auth.login')}}">Sign in</a></li>
+                <li><a class="btn btn-success" href="{{url_for('auth.login')}}">Sign in</a></li>
                 {%endif%}
             </ul>
         </div>
