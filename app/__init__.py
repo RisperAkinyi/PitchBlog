@@ -30,7 +30,7 @@ def create_app(config_name):
     mail.init_app(app)
 
     # Registering the blueprint
-    from .main import main as main_blueprint
+    from .main import main as main_blueprin
     app.register_blueprint(main_blueprint)
 
     from .auth import auth as auth_blueprint
