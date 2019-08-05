@@ -49,15 +49,15 @@
                 {% endif %}
             </div>
             <div class="col-md-6" id="myposts">
-                <div class="row" style="width:100%; border-bottom: solid 1px grey;margin: 0;height:50px;">
+                <div class="row" style="width:100%; border-bottom: solid 1px grey;margin: 0;height:50px; ">
                     <div class="col-md-4">
-                        <a style ="padding: 10px;">My Posts</a>
+                        <a style ="padding: 10px; color: green;">My Posts</a>
                     </div>
                     <div class="col-md-4">
-                        <a style ="padding: 10px;">Liked Posts</a>
+                        <a style ="padding: 10px; color: green;">Liked Posts</a>
                     </div>
                     <div class="col-md-4">
-                        <a style="padding: 10px;">Posts&Comments</a>
+                        <a style="padding: 10px; color: green;">Posts&Comments</a>
                     </div>
                 </div>
                 {% for pitch in pitches %}
@@ -107,7 +107,7 @@
         {% endfor %}
                 <div class="row" style="width:100%; margin: 0;padding-bottom: 10px;">
                             
-                            <a class="btn btn-primary btn-lg" href="/timeline" role="button" style="background-color: rgb(255, 99, 9); text-align: center; margin-bottom: 50%; margin-top: 20%;">Make Pitch</a>
+                            <a class="btn btn-primary btn-lg" href="/timeline" role="button" style="background-color: blue; text-align: center; margin-bottom: 50%; margin-top: 20%;">Make Pitch</a>
                             <div class="row">
                                 <div class="col-md-4" style="margin-left:210px;">
                                     {% if user.profile_pic_path %}
