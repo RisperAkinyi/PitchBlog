@@ -51,7 +51,7 @@ https://best-pitch.herokuapp.com/
 ### License
 
 The project is licensed under MIT license https://opensource.org/licenses/MIT
-Copyright (c) 2019, emma
+Copyright (c) 2019, ras
 RisperAkinyi/best-pitch
 
 ### Language
