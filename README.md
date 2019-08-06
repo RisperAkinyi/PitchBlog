@@ -4,7 +4,7 @@
 This is  an application that allows users to submit their one minute pitches and other users will vote on them and leave comments to give their feedback on them.
 
 ## Link to deployed site
-https://PitchBlog.herokuapp.com/ 
+https://pitch-mara.herokuapp.com/ 
 
 ## user stories
 * view pitches
